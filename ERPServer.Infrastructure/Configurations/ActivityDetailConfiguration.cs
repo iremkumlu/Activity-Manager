@@ -1,0 +1,16 @@
+﻿using ERPServer.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace ERPServer.Infrastructure.Configurations;
+
+internal sealed class ActivityDetailConfiguration : IEntityTypeConfiguration<ActivityDetail>
+{
+    public void Configure(EntityTypeBuilder<ActivityDetail> builder)
+    {
+
+    }
+
+}
+
+
